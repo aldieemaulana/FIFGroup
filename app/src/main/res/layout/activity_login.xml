@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.vendumedia.fifgroup.activity.SplashActivity">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo_vertical"
+        android:scaleType="fitCenter"/>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/shape"
+        android:scaleType="fitEnd"/>
+
+    <LinearLayout
+        android:id="@+id/form_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="@dimen/activityHorizontalMargin_big"
+        android:layout_marginRight="@dimen/activityHorizontalMargin_big"
+        android:background="@drawable/shape_white_rounded"
+        android:paddingBottom="@dimen/activityVerticalMargin"
+        android:paddingLeft="@dimen/activityHorizontalMargin"
+        android:paddingRight="@dimen/activityHorizontalMargin"
+        android:paddingTop="@dimen/activityVerticalMargin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/input_username"
+                android:textSize="@dimen/text_small" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="@color/colorRed"
+                android:textSize="@dimen/text_extra_small" />
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/in_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/inputBottomMedium"
+            android:background="@drawable/edittext_primary"
+            android:descendantFocusability="beforeDescendants"
+            android:focusable="true"
+            android:focusableInTouchMode ="true"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:paddingBottom="@dimen/edittext_horizontal"
+            android:paddingTop="@dimen/edittext_horizontal_small"
+            android:textSize="@dimen/text_medium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/input_password"
+                android:textSize="@dimen/text_small" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:textColor="@color/colorRed"
+                android:textSize="@dimen/text_extra_small" />
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/in_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/inputBottomMedium"
+            android:background="@drawable/edittext_primary"
+            android:descendantFocusability="beforeDescendants"
+            android:focusable="true"
+            android:focusableInTouchMode ="true"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:paddingBottom="@dimen/edittext_horizontal"
+            android:paddingTop="@dimen/edittext_horizontal_small"
+            android:textSize="@dimen/text_medium" />
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.AppCompatImageButton
+        android:id="@+id/submit_login"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/form_login"
+        android:background="@drawable/button_primary_circle"
+        android:stateListAnimator="@null"
+        android:src="@drawable/ic_chevron_right_white_36dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/buttonMedium"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+
+</RelativeLayout>
