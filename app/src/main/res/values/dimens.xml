@@ -10,8 +10,9 @@
     <dimen name="text_big">10pt</dimen>
     <dimen name="text_small">5.9pt</dimen>
     <dimen name="text_extra_small">3.9pt</dimen>
-    <dimen name="text_medium">6.9pt</dimen>
+    <dimen name="text_medium">14sp</dimen>
     <dimen name="inputBottomMedium">18dp</dimen>
+    <dimen name="inputBottomEasy">12dp</dimen>
     <dimen name="inputBottomSmall">2dp</dimen>
     <dimen name="edittext_horizontal">6dp</dimen>
     <dimen name="edittext_horizontal_small">4dp</dimen>
@@ -22,5 +23,8 @@
     <dimen name="buttonGroupSmall">6dp</dimen>
     <dimen name="grid_expected_size">4</dimen>
     <dimen name="spinner_side_button_medium">28dp</dimen>
+    <dimen name="menu_icon_bottom">2dp</dimen>
+    <dimen name="text_menu">10sp</dimen>
+    <dimen name="elevation_min">-3dp</dimen>
 
 </resources>

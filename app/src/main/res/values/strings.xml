@@ -2,4 +2,13 @@
     <string name="app_name">FIFGroup</string>
     <string name="input_username">Username</string>
     <string name="input_password">Password</string>
+    <string name="news_info"><![CDATA[News & Info]]></string>
+    <string name="ebook">e-Book</string>
+    <string name="leave">Leave</string>
+    <string name="business_trip">Business Trip</string>
+    <string name="fiftube">FIFTube</string>
+    <string name="elearning">e-Learning</string>
+    <string name="events">Events</string>
+    <string name="vip_point">VIP Point</string>
+    <string name="culture">Culture</string>
 </resources>
