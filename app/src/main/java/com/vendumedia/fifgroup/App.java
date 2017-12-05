@@ -12,6 +12,8 @@ import uk.co.chrisjenx.calligraphy.CalligraphyConfig;
 
 public class App extends Application {
 
+    public static final String API = "https://fema-dev.fifgroup.co.id/";
+
     public App() {
     }
 

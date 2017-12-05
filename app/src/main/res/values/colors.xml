@@ -15,4 +15,5 @@
     <color name="colorButtonPrimary">#f2f2f2</color>
     <color name="colorButtonPrimaryDark">#d7d7d7</color>
     <color name="colorWhiteSmoke">#F1F2F2</color>
+    <color name="colorShadow">#E6E7E8</color>
 </resources>
